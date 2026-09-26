@@ -141,12 +141,12 @@ publishing {
 			pom {
 				name = "VoxLib"
 				description = "A Minecraft Fabric library mod that provides utilities for manipulating, creating, and rotating voxel shapes"
-				url = "https://github.com/Mystery2099/VoxLib"
+				url = "https://github.com/The-Mystora-Project/VoxLib"
 
 				licenses {
 					license {
 						name = "Minecraft Mod Public License 1.0.1"
-						url = "https://github.com/Mystery2099/VoxLib/blob/master/LICENSE"
+						url = "https://github.com/The-Mystora-Project/VoxLib/blob/master/LICENSE"
 					}
 				}
 
@@ -159,9 +159,9 @@ publishing {
 				}
 
 				scm {
-					connection = "scm:git:git://github.com/Mystery2099/VoxLib.git"
-					developerConnection = "scm:git:ssh://github.com:Mystery2099/VoxLib.git"
-					url = "https://github.com/Mystery2099/VoxLib/tree/master"
+					connection = "scm:git:git://github.com/The-Mystora-Project/VoxLib.git"
+					developerConnection = "scm:git:ssh://github.com:The-Mystora-Project/VoxLib.git"
+					url = "https://github.com/The-Mystora-Project/VoxLib/tree/master"
 				}
 			}
 		}
@@ -171,7 +171,7 @@ publishing {
 		// GitHub Packages repository
 		maven {
 			name = "GitHubPackages"
-			url = uri("https://maven.pkg.github.com/Mystery2099/VoxLib")
+			url = uri("https://maven.pkg.github.com/The-Mystora-Project/VoxLib")
 
 			credentials {
 				// Try environment variables first (for GitHub Actions)

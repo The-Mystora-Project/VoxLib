@@ -190,14 +190,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Basic mod structure
 
-[Unreleased]: https://github.com/Mystery2099/VoxLib/compare/v1.8.0%2B1.21.1...HEAD
-[1.8.0+1.21.1]: https://github.com/Mystery2099/VoxLib/compare/v1.7.0%2B1.20.6...v1.8.0%2B1.21.1
-[1.7.0+1.20.6]: https://github.com/Mystery2099/VoxLib/compare/v1.6.1%2B1.20.1...v1.7.0%2B1.20.6
-[1.6.1+1.20.1]: https://github.com/Mystery2099/VoxLib/compare/v1.6.1%2B1.19.4...v1.6.1%2B1.20.1
-[1.6.1+1.19.4]: https://github.com/Mystery2099/VoxLib/compare/v1.6.0%2B1.19.4...v1.6.1%2B1.19.4
-[1.6.0+1.19.4]: https://github.com/Mystery2099/VoxLib/compare/v1.4.0%2B1.19.4...v1.6.0%2B1.19.4
-[1.4.0+1.19.4]: https://github.com/Mystery2099/VoxLib/compare/v1.3.0%2B1.19.4...v1.4.0%2B1.19.4
-[1.3.0+1.19.4]: https://github.com/Mystery2099/VoxLib/compare/v1.2.0...v1.3.0%2B1.19.4
-[1.2.0+1.19.4]: https://github.com/Mystery2099/VoxLib/compare/v1.1%2B1.19.4...v1.2.0
-[1.1+1.19.4]: https://github.com/Mystery2099/VoxLib/compare/v1.0.0%2B1.19.4...v1.1%2B1.19.4
-[1.0.0+1.19.4]: https://github.com/Mystery2099/VoxLib/releases/tag/v1.0.0%2B1.19.4
+[Unreleased]: https://github.com/The-Mystora-Project/VoxLib/compare/v1.8.0%2B1.21.1...HEAD
+[1.8.0+1.21.1]: https://github.com/The-Mystora-Project/VoxLib/compare/v1.7.0%2B1.20.6...v1.8.0%2B1.21.1
+[1.7.0+1.20.6]: https://github.com/The-Mystora-Project/VoxLib/compare/v1.6.1%2B1.20.1...v1.7.0%2B1.20.6
+[1.6.1+1.20.1]: https://github.com/The-Mystora-Project/VoxLib/compare/v1.6.1%2B1.19.4...v1.6.1%2B1.20.1
+[1.6.1+1.19.4]: https://github.com/The-Mystora-Project/VoxLib/compare/v1.6.0%2B1.19.4...v1.6.1%2B1.19.4
+[1.6.0+1.19.4]: https://github.com/The-Mystora-Project/VoxLib/compare/v1.4.0%2B1.19.4...v1.6.0%2B1.19.4
+[1.4.0+1.19.4]: https://github.com/The-Mystora-Project/VoxLib/compare/v1.3.0%2B1.19.4...v1.4.0%2B1.19.4
+[1.3.0+1.19.4]: https://github.com/The-Mystora-Project/VoxLib/compare/v1.2.0...v1.3.0%2B1.19.4
+[1.2.0+1.19.4]: https://github.com/The-Mystora-Project/VoxLib/compare/v1.1%2B1.19.4...v1.2.0
+[1.1+1.19.4]: https://github.com/The-Mystora-Project/VoxLib/compare/v1.0.0%2B1.19.4...v1.1%2B1.19.4
+[1.0.0+1.19.4]: https://github.com/The-Mystora-Project/VoxLib/releases/tag/v1.0.0%2B1.19.4
