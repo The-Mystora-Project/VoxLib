@@ -143,7 +143,7 @@ Replace `VERSION` with the VoxLib version you want to use.
 
 NeoForge uses a separate artifact, so don't use the Fabric coordinate above.
 
-For NeoForge setup, dependency information, and the rest of the installation details, check the **[VoxLib installation guide](https://github.com/Mystery2099/VoxLib/wiki/Installation)**.
+For NeoForge setup, dependency information, and the rest of the installation details, check the **[VoxLib installation guide](https://github.com/The-Mystora-Project/VoxLib/wiki/Installation)**.
 
 The wiki also contains more detailed setup information, API examples, and documentation.
 
@@ -157,8 +157,8 @@ More recent development has included AI-assisted coding, particularly while over
 
 VoxLib is open source, so if you want to dig through the code, report something broken, or see how any of it works:
 
-* [**GitHub Repository**](https://github.com/Mystery2099/VoxLib)
-* [**Issue Tracker**](https://github.com/Mystery2099/VoxLib/issues)
+* [**GitHub Repository**](https://github.com/The-Mystora-Project/VoxLib)
+* [**Issue Tracker**](https://github.com/The-Mystora-Project/VoxLib/issues)
 
 ## Support
 

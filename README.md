@@ -3,9 +3,9 @@
 A Fabric and NeoForge library mod for Minecraft that provides Kotlin utilities for creating, combining, rotating, simplifying, and debugging `VoxelShape`s.
 
 [![Minecraft 1.21.1](https://img.shields.io/badge/Minecraft-1.21.1-green)](https://modrinth.com/mod/voxlib/versions)
-[![Fabric and NeoForge](https://img.shields.io/badge/Loaders-Fabric%20%2B%20NeoForge-blue)](https://github.com/Mystery2099/VoxLib/wiki/Installation)
-[![Kotlin](https://img.shields.io/badge/Language-Kotlin-purple)](https://github.com/Mystery2099/VoxLib/wiki)
-[![Documentation](https://img.shields.io/badge/Docs-GitHub%20Wiki-black)](https://github.com/Mystery2099/VoxLib/wiki)
+[![Fabric and NeoForge](https://img.shields.io/badge/Loaders-Fabric%20%2B%20NeoForge-blue)](https://github.com/The-Mystora-Project/VoxLib/wiki/Installation)
+[![Kotlin](https://img.shields.io/badge/Language-Kotlin-purple)](https://github.com/The-Mystora-Project/VoxLib/wiki)
+[![Documentation](https://img.shields.io/badge/Docs-GitHub%20Wiki-black)](https://github.com/The-Mystora-Project/VoxLib/wiki)
 
 VoxLib takes some of the repetitive work out of Minecraft's shape API. The helpers keep block shape code shorter and easier to read, while vanilla `VoxelShape` operations still handle the geometry underneath.
 
@@ -37,11 +37,11 @@ val tableFacingWest = table.rotateLeft()
 
 Keep fixed shapes in a top-level property, companion object, or static field so Minecraft does not rebuild them on every shape query.
 
-Follow the [getting started guide](https://github.com/Mystery2099/VoxLib/wiki/Getting-Started) to add a shape to a block. Java users should read [Using VoxLib from Java](https://github.com/Mystery2099/VoxLib/wiki/Using-VoxLib-from-Java) for the JVM syntax used to call Kotlin `object` APIs.
+Follow the [getting started guide](https://github.com/The-Mystora-Project/VoxLib/wiki/Getting-Started) to add a shape to a block. Java users should read [Using VoxLib from Java](https://github.com/The-Mystora-Project/VoxLib/wiki/Using-VoxLib-from-Java) for the JVM syntax used to call Kotlin `object` APIs.
 
 ## Installation
 
-Choose a release that matches your Minecraft version from the [version matrix](https://github.com/Mystery2099/VoxLib/wiki#version-matrix). For Fabric, the current release is available from Modrinth Maven:
+Choose a release that matches your Minecraft version from the [version matrix](https://github.com/The-Mystora-Project/VoxLib/wiki#version-matrix). For Fabric, the current release is available from Modrinth Maven:
 
 ```gradle
 repositories {
@@ -63,23 +63,23 @@ dependencies {
 }
 ```
 
-Replace `VERSION` with a release from [Modrinth](https://modrinth.com/mod/voxlib/versions). The [installation guide](https://github.com/Mystery2099/VoxLib/wiki/Installation) has NeoForge coordinates, GitHub Packages and CurseForge setup, runtime dependencies, and older Minecraft versions.
+Replace `VERSION` with a release from [Modrinth](https://modrinth.com/mod/voxlib/versions). The [installation guide](https://github.com/The-Mystora-Project/VoxLib/wiki/Installation) has NeoForge coordinates, GitHub Packages and CurseForge setup, runtime dependencies, and older Minecraft versions.
 
 ## Documentation
 
 | Topic | Guide |
 | --- | --- |
-| First block | [Getting started](https://github.com/Mystery2099/VoxLib/wiki/Getting-Started) |
-| Dependency setup | [Installation](https://github.com/Mystery2099/VoxLib/wiki/Installation) |
-| Cuboids and coordinates | [Creating shapes](https://github.com/Mystery2099/VoxLib/wiki/Creating-Shapes) |
-| Unions and conditional assembly | [Combining shapes](https://github.com/Mystery2099/VoxLib/wiki/Combining-Shapes) |
-| Directional geometry | [Rotating and flipping shapes](https://github.com/Mystery2099/VoxLib/wiki/Rotating-and-Flipping-Shapes) |
-| Built-in factories | [Common shapes](https://github.com/Mystery2099/VoxLib/wiki/Common-Shapes) |
-| Approximate outlines | [Simplifying shapes](https://github.com/Mystery2099/VoxLib/wiki/Simplifying-Shapes) |
-| Cache behavior | [Caching and performance](https://github.com/Mystery2099/VoxLib/wiki/Caching-and-Performance) |
-| In-game overlays and logging | [Debug tools](https://github.com/Mystery2099/VoxLib/wiki/Debug-Tools) |
-| Calling the API from Java | [Using VoxLib from Java](https://github.com/Mystery2099/VoxLib/wiki/Using-VoxLib-from-Java) |
-| Release notes and upgrades | [Version history and migration](https://github.com/Mystery2099/VoxLib/wiki/Version-History-and-Migration) |
+| First block | [Getting started](https://github.com/The-Mystora-Project/VoxLib/wiki/Getting-Started) |
+| Dependency setup | [Installation](https://github.com/The-Mystora-Project/VoxLib/wiki/Installation) |
+| Cuboids and coordinates | [Creating shapes](https://github.com/The-Mystora-Project/VoxLib/wiki/Creating-Shapes) |
+| Unions and conditional assembly | [Combining shapes](https://github.com/The-Mystora-Project/VoxLib/wiki/Combining-Shapes) |
+| Directional geometry | [Rotating and flipping shapes](https://github.com/The-Mystora-Project/VoxLib/wiki/Rotating-and-Flipping-Shapes) |
+| Built-in factories | [Common shapes](https://github.com/The-Mystora-Project/VoxLib/wiki/Common-Shapes) |
+| Approximate outlines | [Simplifying shapes](https://github.com/The-Mystora-Project/VoxLib/wiki/Simplifying-Shapes) |
+| Cache behavior | [Caching and performance](https://github.com/The-Mystora-Project/VoxLib/wiki/Caching-and-Performance) |
+| In-game overlays and logging | [Debug tools](https://github.com/The-Mystora-Project/VoxLib/wiki/Debug-Tools) |
+| Calling the API from Java | [Using VoxLib from Java](https://github.com/The-Mystora-Project/VoxLib/wiki/Using-VoxLib-from-Java) |
+| Release notes and upgrades | [Version history and migration](https://github.com/The-Mystora-Project/VoxLib/wiki/Version-History-and-Migration) |
 
 The repository also contains the methodology and commands for its manual [performance benchmarks](docs/PERFORMANCE.md).
 
@@ -111,7 +111,7 @@ Run a development client or dedicated server with the loader-specific tasks:
 | Client | `./gradlew :fabric:runClient` | `./gradlew :neoforge:runClient` |
 | Dedicated server | `./gradlew :fabric:runServer` | `./gradlew :neoforge:runServer` |
 
-The root `runClient` and `runServer` tasks default to Fabric. See the [installation guide](https://github.com/Mystery2099/VoxLib/wiki/Installation#building-from-source) for local Maven publishing and mapping notes.
+The root `runClient` and `runServer` tasks default to Fabric. See the [installation guide](https://github.com/The-Mystora-Project/VoxLib/wiki/Installation#building-from-source) for local Maven publishing and mapping notes.
 
 ## Project layout
 

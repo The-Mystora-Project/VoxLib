@@ -6,9 +6,9 @@
 	"description": "A convenience library for creating, combining, transforming, debugging, and selectively reusing voxel shapes in Minecraft modding.",
 	"authors": ["Mystery2099"],
 	"contact": {
-		"homepage": "https://github.com/Mystery2099/VoxLib",
-		"sources": "https://github.com/Mystery2099/VoxLib",
-		"issues": "https://github.com/Mystery2099/VoxLib/issues"
+		"homepage": "https://github.com/The-Mystora-Project/VoxLib",
+		"sources": "https://github.com/The-Mystora-Project/VoxLib",
+		"issues": "https://github.com/The-Mystora-Project/VoxLib/issues"
 	},
 	"license": "MMPL-1.0.1",
 	"icon": "assets/voxlib/icon.png",

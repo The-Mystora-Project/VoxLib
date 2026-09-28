@@ -1,13 +1,13 @@
 modLoader="javafml"
 loaderVersion="[4,)"
 license="MMPL-1.0.1"
-issueTrackerURL="https://github.com/Mystery2099/VoxLib/issues"
+issueTrackerURL="https://github.com/The-Mystora-Project/VoxLib/issues"
 
 [[mods]]
 modId="voxlib"
 version="${version}"
 displayName="Mystery2099's VoxLib"
-displayURL="https://github.com/Mystery2099/VoxLib"
+displayURL="https://github.com/The-Mystora-Project/VoxLib"
 logoFile="assets/voxlib/icon.png"
 authors="Mystery2099"
 description="A library for creating, combining, transforming, debugging, and reusing voxel shapes."
