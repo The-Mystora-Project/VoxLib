@@ -159,8 +159,8 @@ publishing {
 				}
 
 				scm {
-					connection = "scm:git:git://github.com/The-Mystora-Project/VoxLib.git"
-					developerConnection = "scm:git:ssh://github.com:The-Mystora-Project/VoxLib.git"
+					connection = "scm:git:https://github.com/The-Mystora-Project/VoxLib.git"
+					developerConnection = "scm:git:ssh://git@github.com/The-Mystora-Project/VoxLib.git"
 					url = "https://github.com/The-Mystora-Project/VoxLib/tree/master"
 				}
 			}
@@ -171,7 +171,7 @@ publishing {
 		// GitHub Packages repository
 		maven {
 			name = "GitHubPackages"
-			url = uri("https://maven.pkg.github.com/The-Mystora-Project/VoxLib")
+			url = uri("https://maven.pkg.github.com/the-mystora-project/VoxLib")
 
 			credentials {
 				// Try environment variables first (for GitHub Actions)
